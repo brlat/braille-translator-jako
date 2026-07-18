@@ -1,0 +1,1 @@
+libkuraji[integration]>=1.0.0
