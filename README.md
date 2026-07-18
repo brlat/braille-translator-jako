@@ -1,4 +1,12 @@
-# 日韓混在テキスト点字変換ツール (braille-translator-jako)
+# libkurajiとliblouisを使用した日本語韓国語混在テキスト点字変換Pythonスクリプト (braille-translator-jako)
+
+これは、nishimotzさんが公開してくださっている日本語点訳ライブラリ「libkuraji」と、オープンソースの点訳プログラム「liblouis」を使用して、日本語と韓国語が混在するテキストファイルを、日本語は日本点字に、韓国語は韓国語点字に変換するPythonスクリプトです。
+
+Google Antigravityに作成してもらいました。
+
+以下Antigravityによるドキュメントです:
+
+-------
 
 日本語と韓国語が混在するテキストを文字単位で自動判定し、それぞれの言語に適した点字エンジンを用いてユニコード点字（Unicode Braille Patterns: U+2800〜U+28FF）に変換する Python スクリプトです。
 
@@ -94,7 +102,7 @@ options:
 
 ### 本ツール (braille-translator-jako)
 *   **ライセンス**: MIT License
-*   **著作権**: Copyright (c) 2026 poohbear
+*   **著作権**: Copyright (c) 2026 brlat
 *   詳細は [LICENSE](./LICENSE) ファイルを参照してください。
 
 ### 依存ソフトウェア・ライブラリのライセンス
@@ -103,7 +111,7 @@ options:
 1.  **libkuraji** (日本語点字変換エンジン)
     *   **リポジトリ**: [nishimotz/libkuraji](https://github.com/nishimotz/libkuraji)
     *   **著作権**: Copyright (c) Takuya Nishimoto, NVDA Japanese Team.
-    *   **ライセンス**: LGPL v2.1 or later
+    *   **ライセンス**: BSD 3-Clause "New" or "Revised" License
 2.  **liblouis** (韓国語点字変換エンジン)
     *   **リポジトリ**: [liblouis/liblouis](https://github.com/liblouis/liblouis)
     *   **著作権**: Copyright (C) The Liblouis Authors.
